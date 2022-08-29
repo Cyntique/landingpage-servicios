@@ -365,61 +365,6 @@ hr {
   opacity: 0.2;
 }
 
-blockquote {
-  padding: 25px;
-  margin: 20px 0;
-  background: #f9f9f9;
-  position: relative;
-  border-left: 3px solid #4B606E;
-  padding-left: 40px;
-}
-blockquote.text-center {
-  border-top: 3px solid #4B606E;
-  border-left: 0;
-  padding-left: 25px;
-  padding-top: 50px;
-}
-blockquote.text-center:before {
-  left: 50%;
-  top: 10px;
-  transform: translateX(-50%);
-}
-blockquote.text-right {
-  border-right: 3px solid #4B606E;
-  padding-right: 40px;
-  border-left: 0;
-  padding-left: 25px;
-}
-blockquote.text-right:before {
-  left: auto;
-  right: 5px;
-}
-blockquote:before {
-  content: "\f10d";
-  font-family: "Font Awesome 5 Free";
-  position: absolute;
-  font-size: 28px;
-  color: #E5E5E5;
-  top: 5px;
-  left: 5px;
-  font-weight: 700;
-  z-index: 0;
-}
-
-blockquote p {
-  font-size: 14px;
-  line-height: 22px;
-  position: relative;
-  z-index: 1;
-  font-style: italic;
-  margin-bottom: 0;
-}
-
-cite {
-  display: block;
-  font-size: 14px;
-  margin-top: 10px;
-}
 
 /* Ul, Ol */
 .list-round,
@@ -1109,60 +1054,7 @@ ul.navbar-nav > li > a {
   }
 }
 
-.search-block {
-  background-color: rgba(0, 0, 0, 0.65);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  display: none;
-  padding: 10px;
-  position: absolute;
-  right: 15px;
-  top: 100%;
-  width: 300px;
-  z-index: 10;
-  margin-top: 0;
-}
-@media (max-width: 991px) {
-  .search-block {
-    top: 58px;
-  }
-}
 
-.search-block .form-control {
-  background-color: #222;
-  border: none;
-  color: #fff;
-  width: 100%;
-  height: 40px;
-  padding: 0 12px;
-}
-
-.search-block .search-close {
-  color: #999;
-  position: absolute;
-  top: -53px;
-  right: -4px;
-  font-size: 32px;
-  cursor: pointer;
-  background: #23282d;
-  padding: 5px;
-}
-@media (max-width: 991px) {
-  .search-block .search-close {
-    top: -46px;
-  }
-}
-
-.search-area .nav-search {
-  top: 23px;
-}
-
-.search-area .search-block .search-close {
-  top: -50px;
-}
-
-.search-area .search-block {
-  right: 0;
-}
 
 /* Get a quote */
 .header-get-a-quote .btn-primary {
@@ -1440,7 +1332,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .box-slider-text {
   background: #111;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.13);
   display: inline-block;
   padding: 20px 30px;
   max-width: 650px;
@@ -2342,46 +2234,7 @@ img.testimonial-thumb {
   }
 }
 
-.newsletter-form input {
-  background: none;
-  font-size: 12px;
-  height: 45px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
 
-/* News section
-================================================== */
-.latest-post {
-  position: relative;
-}
-
-.latest-post .image-angle:before {
-  border-bottom: 20px solid #f9f9f9;
-}
-
-.latest-post .post-title {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
-  font-weight: 600;
-}
-
-.latest-post .post-title a {
-  color: #303030;
-}
-
-.latest-post .post-title a:hover {
-  color: #4B606E;
-}
-
-.latest-post-meta {
-  font-size: 13px;
-  text-transform: uppercase;
-}
-
-.latest-post .post-body {
-  padding: 20px 0 5px;
-}
 
 /* Footer
 ================================================== */
